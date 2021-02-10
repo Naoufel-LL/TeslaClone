@@ -1,0 +1,33 @@
+
+*{ 
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+.loadinglogo{
+    position: absolute;
+    top:15%;
+    left:35%;
+    text-align: center;
+}
+.loadinglogo img{
+    width: 300px;
+    animation:animate 1.5s infinite linear ;
+    height: 300px;  
+}
+@keyframes animate{
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}

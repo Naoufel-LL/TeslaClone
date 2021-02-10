@@ -1,0 +1,41 @@
+nav{
+    margin:20px;
+    font-size:14px;
+    font-weight: 500;
+    display: flex;
+    width: 100vw;
+    background:none;
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    left:0;
+    /*color:#393c41;*/
+    justify-content: space-between;
+    color:#393c41;;
+}
+.logo img{
+    width: 100px;
+    height: 15px;
+}
+.navbar-center a{
+    text-decoration: none;
+    margin-right: 25px;
+    cursor:pointer;
+    color:#393c41;
+}
+nav .navbar-center{
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+nav .navbar-end{
+    display: flex;
+    margin-right: 40px;
+       text-transform: uppercase;
+    justify-content: flex-end;
+}
+.navbar-end p{
+    margin-right: 10px;
+}
