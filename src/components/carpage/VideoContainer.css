@@ -32,3 +32,17 @@
     margin-top:25px;
     color: grey;
 }
+@media screen and (max-width:500px){
+   .video-container{
+       display: flex;
+       flex-direction: column-reverse;
+       justify-content: center;
+       align-items: center;
+   }
+   .video-container .video-side{
+       width: 100%;
+   }
+   .video-side video{
+       padding: 0;
+   }
+}

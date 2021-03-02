@@ -39,3 +39,18 @@
     text-decoration:none;
     color:black;
 }
+@media screen and (max-width : 500px){
+    .gaz-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .gaz-container .box{
+        flex-basis: 60%;
+    }
+    .gaz-container .text-right{
+        padding:20px;
+    }
+    .btnbtn{
+        margin-top: 30px;
+    }
+}

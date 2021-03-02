@@ -1,5 +1,4 @@
 nav{
-    margin:20px;
     font-size:14px;
     font-weight: 500;
     display: flex;
@@ -8,10 +7,20 @@ nav{
     position: fixed;
     z-index: 1000;
     top:0;
+    padding:20px;
     left:0;
     /*color:#393c41;*/
     justify-content: space-between;
     color:#393c41;;
+    transition:all 0.5s ease;
+}
+.hamburger{
+    margin-right: 30px;
+    align-items: center;
+    display: none;
+}
+.scrollwhite{
+    background-color: white;
 }
 .logo img{
     width: 100px;
@@ -36,6 +45,7 @@ nav .navbar-end{
        text-transform: uppercase;
     justify-content: flex-end;
 }
+
 .navbar-end p{
     margin-right: 10px;
 }

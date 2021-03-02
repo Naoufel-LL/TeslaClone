@@ -49,3 +49,13 @@
     text-decoration:none;
     color:black;
 }
+@media screen and (max-width:500px){
+    .teslabuild-container{
+        display:flex;
+        flex-direction: column;
+    }
+    .teslabuild-container .box{
+        flex-basis: 40%;
+        width: 100%;
+    }
+}

@@ -10,3 +10,8 @@
     width: 100%;
     object-fit: cover;
 }
+@media screen and (max-width:500px){
+    .videobackground video{
+        object-fit: cover;
+    }
+}
