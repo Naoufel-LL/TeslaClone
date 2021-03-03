@@ -23,7 +23,7 @@ const HeaderPage = ({background,title,description,range,speed,time,horsepower,fi
                 bottom:100,
                 right:60
             
-            }} />
+            }} id="msg"/>
         </div>}
         <Fade bottom>
         <div className="header_bottom">
@@ -42,7 +42,7 @@ into Energy</h3> :  <h3>Range(est.)</h3>}
           {second ? <h3>Guaranteed
 Lowest Price</h3> : <h3>Top Speed†</h3>}
          </div>
-         <div class="item">
+         <div class="item" id="horse">
           <h1>{horsepower}</h1>
           {second ? <h3>Energy Monitoring</h3> : <h3>Peak Power</h3>}
          </div>

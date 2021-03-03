@@ -13,9 +13,11 @@ const BackVideo = () => {
          first
          second
       />
-            <video  muted loop autoPlay
-             src="https://www.tesla.com/sites/default/files/solarroof/v3/hero/DesignHero_desktop.mp4"
-            ></video>
+            <video
+             autoPlay muted loop>
+                 <source src="https://www.tesla.com/sites/default/files/solarroof/v3/hero/DesignHero_desktop.mp4" type="video/mp4" />
+
+             </video>
         </div>
       );
 }

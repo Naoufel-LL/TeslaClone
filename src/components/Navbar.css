@@ -49,3 +49,39 @@ nav .navbar-end{
 .navbar-end p{
     margin-right: 10px;
 }
+@media screen and (max-width: 752px){
+    .navbar-end{
+        visibility: hidden;
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        position: fixed;
+        top: 1.5%;
+        cursor: pointer;
+        z-index: 1000;
+        right: 0;
+        transform: all 1s ease;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 10vh;
+    }
+    .navbar-center{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        position: fixed;
+        right: 0;
+        top: 10%;
+        transition: all 1s;
+        z-index: -10;
+    }
+    .navbar-center a{
+        margin: 15px 0;
+    }
+   
+}

@@ -39,13 +39,28 @@
     text-decoration:none;
     color:black;
 }
-@media screen and (max-width : 500px){
+@media screen and (max-width : 600px){
     .gaz-container{
         display: flex;
         flex-direction: column-reverse;
     }
     .gaz-container .box{
         flex-basis: 60%;
+    }
+    .gaz-container .text-right{
+        padding:20px;
+    }
+    .btnbtn{
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 920px){
+    .gaz-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .gaz-container .box{
+        flex-basis: 50%;
     }
     .gaz-container .text-right{
         padding:20px;

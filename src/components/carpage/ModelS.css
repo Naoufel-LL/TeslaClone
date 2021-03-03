@@ -100,7 +100,25 @@
     text-decoration:none;
     color:black;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
+    .models_row{
+        display: flex;
+        flex-direction: column;
+    }
+    .models_textright{
+        text-align: center;
+        padding: 20px;
+    }
+    .models_row_reverse{
+        display: flex;
+        flex-direction: column;
+    }
+    .models_row_reverse .models_textright{
+        padding: 20px;
+        text-align:center;
+    }
+}
+@media screen and (min-width: 601px) and (max-width:1100){
     .models_row{
         display: flex;
         flex-direction: column;

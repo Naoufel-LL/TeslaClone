@@ -32,12 +32,13 @@
     margin-top:25px;
     color: grey;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
    .video-container{
        display: flex;
        flex-direction: column-reverse;
        justify-content: center;
        align-items: center;
+       padding: 5% 0;
    }
    .video-container .video-side{
        width: 100%;
@@ -45,4 +46,18 @@
    .video-side video{
        padding: 0;
    }
+}
+@media screen and (min-width: 601px) and (max-width:920px){
+    .video-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .video-container .video-side{
+        width: 100%;
+    }
+    .video-side video{
+        padding: 0;
+    }
 }

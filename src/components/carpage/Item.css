@@ -7,7 +7,6 @@
     background-position:center;
     text-align:center;
     padding:110px;
-    scroll-snap-align: start;
 }
 .title{
     font-size:2.5em;
@@ -49,7 +48,7 @@
     font-size: 14px;  
 }
 .buttons{
-    margin-top:330px;
+    margin-top:300px;
 }
 .text-bottom{
     margin-top:40px;
@@ -79,9 +78,38 @@
         transform :translateY(10px);
     }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
     .buttons{
         margin-top:350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction:row;
+        margin-top: 300px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        height: 80vh;
+        padding:5%;
+    }
+    .btn-one, .btn-two{
+        padding: 10px 30px;
+    }
+    .title{
+        font-size:1.5em;
+        margin-top: 60px;
+    }
+    .buttons1{
+        margin-top:300px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width:920px){
+    .buttons{
+        margin-top:310px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -93,11 +121,17 @@
         flex-direction: column;
         justify-content: center;
         align-items:center;
+        height: 90vh;
+        padding:5%;
     }
     .btn-one, .btn-two{
         padding: 10px 30px;
     }
     .title{
         font-size:1.5em;
+        margin-top: 60px;
+    }
+    .buttons1{
+        margin-top:300px;
     }
 }
